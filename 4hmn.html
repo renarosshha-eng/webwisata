@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang ="id">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wisata Kota Terlarang - China</title>
+    
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+            font-family: Arial,Sans-Serif;
+        }
+        body {
+            background: darkgreen;
+            color: black;
+        }
+        header{
+            background: linear-gradient(to right, #006400, #0B3D2E);
+            color: white;
+            padding: 30px 15px;
+            text-align: center;
+        }
+        header h1{
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+        header p{
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        nav{
+            background: white;
+            padding: 12px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            position: sticky;
+            top: 0;
+            z-index: 999;
+        }
+        nav a{
+            text-decoration: none;
+            color: navy;
+            font-weight: bold;
+            font-size: 14px;
+            padding: 8px 10px;
+            border-radius: 8px;
+            transition: 0,2s;
+        }
+        nav a:hover{
+            background: white;
+            color: blue;
+        }
+        .container{
+            width: 90%;
+            max-width: 1000%;
+            margin: 20px auto;
+        }
+        .hero{
+            background: white;
+            border-radius: 14px;
+            overflow: hidden;
+            margin-bottom: 16px;
+        }
+        .hero img{
+            width: 100%;
+            height: 280;
+            object-fit: cover;
+        }
+        .hero .hero-text{
+            padding: 16px;
+        }
+        .hero .hero-text h2{
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+        .hero .hero-text p{
+            font-size: 14px;
+            line-height: 1,6;
+            color: #444;
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .card{
+            background: white;
+            border-radius: 14px;
+            padding: 16px;
+        }
+        .card h3{
+            fornt-size: 16px;
+            margin-bottom: 10px;
+            color: black;
+        }
+        .card ul{
+            padding-left: 18px;
+            font-size: 16px;
+            color: black;
+            line-height: 1,6;
+        }
+        .badge{
+            display: inline-block;
+            background: white;
+            color: blue;
+            padding: 6px 10px;
+            border-radius: 999px;
+            font-size: 12px;
+            margin: 4px 6px 0 0;
+        }
+        .price-table{
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        .price-table th, .price-table td{
+            border: 1px solid lightgray;
+            padding: 10px;
+            text-align: left;
+        }
+        .price-table th{
+            background: darkgreen;
+            color: white;
+        }
+        .btn-area{
+            margin-top: 12px;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        button{
+            border: none;
+            padding: 10px 14px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 14px;
+            transition: 0,2s;
+        }
+        .footer {
+            margin-top: 20px;
+            padding: 18px;
+            text-align: center;
+            background: #013220;
+            color: white;
+            font-size: 13px;
+        }
+        .note{
+            font-size: 13px;
+            color: black;
+            margin-top: 10px;
+            line-height: 1,6;
+        }
+        .highlight{
+            color: black;
+            font-weight: bold;
+        }
+    </style>
+  </head>
+  
+  <body>
+      
+    <header>
+        <h1>Wisata Negara Brazil🇧🇷</h1>
+        <p>Porto de Galinhas adalah salah satu destinasi wisata pantai paling terkenal di Brasil, tepatnya berada di negara bagian Pernambuco, dekat kota Recife.</p>
+    </header>
+    
+          <nav>
+            <a href="#tentang">Tentang</a>
+            <a href="#tiket">Harga Tiket</a>
+            <a href="#aktivitas">Aktivitas</a>
+            <a href="#tips">Tips</a>
+          </nav>
+          
+        <style>
+            html{
+                scroll-behavior: smooth;
+            }
+        </style>
+        
+                
+       <div class="container">
+
+      <section class="hero" id="tentang">
+      <img src="images/Pantai.jpg">
+      <div class="hero-text">
+        <h2>Porto De Galinhas - Brazil</h2>
+        <p>Tempat ini terkenal karena pantainya yang indah, air lautnya jernih kebiruan, dan kolam-kolam alami yang terbentuk di antara terumbu karang saat air laut surut. Di kolam alami ini, pengunjung bisa berenang bareng ikan warna-warni tanpa harus menyelam terlalu dalam.</p>
+        
+        <div style = "margin-top : 10px;">
+        <div style = "margin-top : 10px;">
+        <span class="badge">📍 Lokasi:Porto de Galinhas, Kecamatan Ipojuca, Negara Bagian Pernambuco, Brasil </span>
+          <span class="badge">🌤️ Musim terbaik:Musim Panas</span>
+          <span class="badge">📸 Spot favorit:Kolam Alami (Piscinas Naturais)</span>
+        </div>
+      </div>
+    </section>
+    
+        <div class ="grid">
+        <section class="card" id="tiket">
+          <h3>🎟️ Detail Harga Tiket (Estimasi)</h3>
+
+        <table class="price-table">
+          <tr>
+            <th>Jenis</th>
+            <th>Harga</th>
+          </tr>
+          <tr>
+             <td>Masuk area porto de galinhas  (umum)</td>
+             <td>gratis</td>
+          </tr>
+          <tr>
+              <td>Buggy Tour (keliling pantai)</td>
+              <td>R$ 250 – R$ 350</td>
+          </tr>
+          <tr>
+              <td>Estimasi Budget Harian</td>
+              <td>± R$ 250 – R$ 350 </td>
+          </tr>
+          </table>
+          
+          <p class="note">
+          Catatan: Harga bisa berubah tergantung musim & jalur transport.</p>
+          </section>
+
+    <section class="card">
+      <h3>✨ Ada Apa Aja di porto de galihas</h3>
+      <ul>
+     <li>Pantai-pantai Cantik</li>
+     <li>Kolam Alami & Snorkeling</li>
+     <li>Jangada Rides (Perahu Tradisional)</li>
+    </ul>
+    </section>
+
+    <section class = "card" id="aktivitas">
+        <h3>🥳Aktivitas seru</h3>
+        <ul>
+            <li>🐠 Snorkeling di Natural Pools</li>
+            <li>🚤 Naik Jangada (Perahu Tradisional)</li>
+            <li>🏄 Surfing</li>
+            <li>🏖️ Buggy Tour Pantai</li>
+            <li>🐢 Wisata Edukasi Kuda Laut</li>
+        </ul>
+    </section>
+
+    <section class="card">
+        <h3>🕒Jam operasional & Akses</h3>
+        <ul>
+            <li>Natural Pools (Kolam Alam): 08:30 - 16:30</li>
+            <li>Jangada rides:
+Siang hari sesuai air laut & operator</li>
+            <li>Pusat kota & toko :
+± 09:00 – 22:00 (bisa beda tiap tempat)</li>
+            <li>Pantai & Area Publik : ± 06:00 – 18:00/19:00</li>
+        </ul>
+
+    </section>
+
+    </div>
+
+    <section class="card" id="tips" style="margin-top: 15px;">
+        <h3>📝Tips berwisata ke Porto De Galinhas</h3>
+        <ul>
+            <li>Pesan Tiket Online Lebih Awal</li>
+            <li>Datang Lebih Awal</li>
+            <li>Perhatiin JADWAL AIR SURUT</li>
+            <li>Pakai SANDAL AIR / AQUA SHOES</li>
+            <li>Perhatikan Cuaca</li>
+            <li>Pilih Jangada Resmi</li>
+            <li>Bawa UANG CASH</li>
+            
+        <p class="note">
+            Tips: Datang saat pagi hari agar tidak terlalu ramai
+        </p>
+        </ul>
+    </section>
+    
+    </div>
+    <section class ="footer">
+       <footer>
+        <p>© 2026 | Web Wisata negara negara terindah</p>
+    </footer>
+    </section>
+
+  </body>
+     </html>
